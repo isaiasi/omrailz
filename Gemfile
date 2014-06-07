@@ -6,7 +6,7 @@ ruby '2.1.2'
 gem 'rails', '4.1.1'
 #Use sqlite3 for development and PostGres for production (heroku) 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'pg'
 end
 group :production do
   gem 'pg'
